@@ -1,0 +1,107 @@
+2024-06-02 14:23:32.909 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:24:10.055 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:25:53.360 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:25:53.362 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:25:53.368 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:25:53.368 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:25:53.368 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:25:53.368 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:25:53.418 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 14:25:53.502 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1201466784.
+2024-06-02 14:25:53.505 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 14:25:53.515 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 14:25:53.524 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 14:35:17.263 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:35:17.265 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:35:17.273 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:35:17.273 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:35:17.273 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:35:17.273 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:35:17.331 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 14:35:17.425 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1829217853.
+2024-06-02 14:35:17.427 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 14:35:17.441 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 14:35:17.451 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 14:38:43.970 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:43.971 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:43.977 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:43.977 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:43.977 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:43.977 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:44.027 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 14:38:44.103 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 208684473.
+2024-06-02 14:38:44.104 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - ==>  Preparing: SELECT emp.* FROM employee emp WHERE id = ?
+2024-06-02 14:38:44.115 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - ==> Parameters: 10(Long)
+2024-06-02 14:38:44.123 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - <==      Total: 1
+2024-06-02 14:38:47.115 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:47.116 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:47.123 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:47.123 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:47.123 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:47.123 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:47.171 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 14:38:47.259 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1829217853.
+2024-06-02 14:38:47.261 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - ==>  Preparing: SELECT emp.* FROM employee emp WHERE id = ?
+2024-06-02 14:38:47.271 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - ==> Parameters: 10(Long)
+2024-06-02 14:38:47.280 [main] DEBUG org.zues.dao.EmployeeDao.getEmpByStep - <==      Total: 1
+2024-06-02 14:38:51.261 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:51.263 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 14:38:51.270 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:51.270 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:51.270 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:51.270 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 14:38:51.319 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 14:38:51.408 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1829217853.
+2024-06-02 14:38:51.410 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 14:38:51.423 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 14:38:51.431 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.467 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 22:05:34.470 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.478 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-06-02 22:05:34.541 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.635 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1201466784.
+2024-06-02 22:05:34.635 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@479ceda0]
+2024-06-02 22:05:34.637 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:34.650 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:34.660 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.660 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.664 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1517640897.
+2024-06-02 22:05:34.664 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5a755cc1]
+2024-06-02 22:05:34.664 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:34.664 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:34.665 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.665 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.668 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 738677855.
+2024-06-02 22:05:34.668 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2c07545f]
+2024-06-02 22:05:34.668 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:34.668 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:34.668 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.669 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.672 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 124734309.
+2024-06-02 22:05:34.672 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@76f4b65]
+2024-06-02 22:05:34.672 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:34.673 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:34.673 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.674 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.677 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1380924218.
+2024-06-02 22:05:34.677 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@524f3b3a]
+2024-06-02 22:05:34.678 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:34.678 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:34.679 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1
+2024-06-02 22:05:34.679 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-06-02 22:05:34.679 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2024-06-02 22:05:36.693 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2024-06-02 22:05:38.697 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2024-06-02 22:05:40.705 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2024-06-02 22:05:42.719 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2024-06-02 22:05:44.722 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Claimed overdue connection 1201466784.
+2024-06-02 22:05:44.723 [main] DEBUG org.zues.dao.UserDao.getUserById - ==>  Preparing: select * from user where id = ?
+2024-06-02 22:05:44.723 [main] DEBUG org.zues.dao.UserDao.getUserById - ==> Parameters: 10(Long)
+2024-06-02 22:05:44.724 [main] DEBUG org.zues.dao.UserDao.getUserById - <==      Total: 1

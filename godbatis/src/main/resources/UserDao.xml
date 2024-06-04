@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="org.zues.dao.UserDao">
+
+    <!--详情-->
+    <select id="getUserById" resultType="org.zues.entity.UserEntity">
+        select * from user where id = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zues.dao.EmployeeDao">
+
+    <!--级联方式查询-->
+<!--    <resultMap id="empDeptMap" type="org.zues.entity.EmployeeEntity">-->
+<!--        <id column="id" property="id"></id>-->
+<!--        <result column="name" property="name"></result>-->
+<!--        <result column="salary" property="salary"></result>-->
+<!--        <result column="dept_id" property="deptId"></result>-->
+<!--        <result column="deptName" property="deptName"></result>-->
+<!--    </resultMap>-->
+
+    <!--使用association处理映射关系-->
+    <resultMap id="empDeptMap" type="com.zues.entity.EmployeeEntity">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="salary" property="salary"></result>
+        <result column="dept_id" property="deptId"/>
+        <association property="dept" javaType="com.zues.entity.DeptEntity">
+            <id column="did" property="did"></id>
+            <result column="dname" property="dname"></result>
+        </association>
+    </resultMap>
+
+    <!--List getEmpAndDeptByEid(@Param("deptId") Long deptId)-->
+    <select id="getEmpAndDeptByEid" resultMap="empDeptMap">
+        SELECT
+            emp.*,
+            dept.*
+        FROM
+            employee emp
+                LEFT JOIN dept dept ON emp.dept_id = dept.did
+        WHERE
+            emp.dept_id = #{deptId}
+    </select>
+
+    <resultMap id="empDeptStepMap" type="com.zues.entity.EmployeeEntity">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="deptId" property="deptId"></result>
+        <result column="salary" property="salary"></result>
+
+        <association property="dept" select="com.zues.dao.EmployeeDao.getEmpByStep" column="deptId"></association>
+    </resultMap>
+
+    <select id="getEmpByStep" resultMap="empDeptStepMap">
+        SELECT
+            emp.*
+        FROM
+            employee emp
+        WHERE
+            id = #{id}
+    </select>
+
+
+</mapper>
