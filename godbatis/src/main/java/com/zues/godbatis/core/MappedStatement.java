@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 /**
- * 普通的java类，POJO，封装了一个SQL标签
- * 一个MappedStatement对象对应一个SQL标签
- * 一个SQL标签中所有信息封装到MappedStatement对象当中
- *
+ * SQL映射实现类
+ *  普通的java类，POJO，封装了一个SQL标签
+ *  一个MappedStatement对象对应一个SQL标签
+ *  一个SQL标签中所有信息封装到MappedStatement对象当中
  */
 @Data
 @AllArgsConstructor
@@ -23,6 +23,15 @@ public class MappedStatement {
      * sql
      */
     private String sql;
+
+    /**
+     * sqlId
+     */
+    private String sqlId;
+
+    private String sqlType;
+
+    private String parameterType;
 
     /**
      *  resultType 要封装的结果集类型，有的时候是null

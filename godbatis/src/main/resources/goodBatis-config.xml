@@ -5,16 +5,17 @@
         <!--一个environment环境对应一个SqlSessionFactory对象-->
         <environment id="dev">
             <transactionManager type="JDBC"/>
-            <dataSource type="POOLED">
+            <dataSource type="UNPOOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis_learn"/>
+                <property name="url" value="jdbc:mysql://192.168.117.129:3306/mybatis_learn"/>
                 <property name="username" value="root"/>
-                <property name="password" value="xiusi3019"/>
+                <property name="password" value="Rise@12345"/>
             </dataSource>
         </environment>
     </environments>
     <!--引入映射文件-->
     <mappers>
         <mapper resource="mapper/UserDao.xml"/>
+        <mapper resource="mapper/UserDao2.xml"/>
     </mappers>
 </configuration>

@@ -24,5 +24,31 @@ public class SqlSessionFactory {
      */
     private Map<String,MappedStatement> mappedStatements;
 
-//    public SqlSession openSession(){};
+    public SqlSessionFactory(Transaction transaction, Map<String, MappedStatement> mappedStatements) {
+        this.transaction = transaction;
+        this.mappedStatements = mappedStatements;
+    }
+
+    public Transaction getTransactionManager() {
+        return transaction;
+    }
+
+    public void setTransactionManager(Transaction transaction) {
+        this.transaction = transaction;
+    }
+
+    public Map<String, MappedStatement> getMappedStatements() {
+        return mappedStatements;
+    }
+
+    public void setMappedStatements(Map<String, MappedStatement> mappedStatements) {
+        this.mappedStatements = mappedStatements;
+    }
+
+    public SqlSession openSession(){
+        //创建连接
+        transaction.openConnection();
+        SqlSession sqlSession = new SqlSession(transaction, mappedStatements);
+        return sqlSession;
+    };
 }

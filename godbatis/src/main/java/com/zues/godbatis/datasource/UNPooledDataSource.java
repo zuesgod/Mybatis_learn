@@ -14,7 +14,6 @@ import java.util.logging.Logger;
  *
  */
 public class UNPooledDataSource implements DataSource {
-    private String driver;
     private String url;
     private String username;
     private String password;
@@ -40,8 +39,7 @@ public class UNPooledDataSource implements DataSource {
 
     @Override
     public Connection getConnection() throws SQLException {
-        Connection connection = DriverManager.getConnection(url, username, password);
-        return connection;
+        return DriverManager.getConnection(url, username, password);
     }
 
     @Override

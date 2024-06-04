@@ -53,9 +53,9 @@
             -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis_learn"/>
+                <property name="url" value="jdbc:mysql://192.168.117.129:3306/mybatis_learn"/>
                 <property name="username" value="root"/>
-                <property name="password" value="xiusi3019"/>
+                <property name="password" value="Rise@12345"/>
                 <!--连接池中最多的正在使用的连接对象的数量上限，最多有多少个连接可以活动，默认值10-->
                 <property name="poolMaximumActiveConnections" value="5"/>
                 <!--强行让某个连接空闲，超时时间的设置-->

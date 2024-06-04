@@ -17,10 +17,10 @@ public class JDBCTransaction implements Transaction{
 
     /**
      * 自动提交标志
-     * true表示自动提交
+     * true表示自动提交  默认是true
      * false表示手动提交
      */
-    private boolean autoCommit;
+    private boolean autoCommit = true;
 
     /**
      * 连接对象
@@ -36,7 +36,8 @@ public class JDBCTransaction implements Transaction{
         //懒汉式获取数据库连接
         if(connection == null){
             try {
-                connection = dataSource.getConnection();
+                this.connection = dataSource.getConnection();
+                this.connection.setAutoCommit(this.autoCommit);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -45,7 +46,7 @@ public class JDBCTransaction implements Transaction{
     }
 
     public Connection getConnection(){
-        return connection;
+        return this.connection;
     }
 
     @Override

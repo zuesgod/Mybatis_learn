@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<mapper namespace="org.zues.dao.UserDao">
+<mapper namespace="org.zues.dao.UserDao2">
 
     <!--详情-->
     <select id="getUserById" resultType="org.zues.entity.UserEntity">
